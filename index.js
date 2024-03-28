@@ -15,3 +15,10 @@ cross.addEventListener("click", ()=>{
 });
 
 const width=screen.width;
+
+
+function markVisited() {
+    var button = document.getElementById("visitButton");
+    button.classList.add("visited");
+    button.innerText = "Visited";
+}
